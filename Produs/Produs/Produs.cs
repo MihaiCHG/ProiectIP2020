@@ -318,6 +318,7 @@ namespace Restaurant
             _ingrediente.Add(new Faina());
             _ingrediente.Add(new Sare());
             _ingrediente.Add(new Piper());
+            _ingrediente.Add(new Malai());
         }
     }
 
@@ -332,6 +333,332 @@ namespace Restaurant
             _ingrediente.Add(new Ou());
             _ingrediente.Add(new Mustar());
             _ingrediente.Add(new Sare());
+        }
+    }
+
+    public class ChifteluteMoldovenesti : Produs
+    {
+        public ChifteluteMoldovenesti()
+        {
+            _nume = "Chiftelute Moldovenesti";
+            _gramaj = 250.0;
+            _pret = 17.0;
+            _ingrediente.Add(new CarneDeVita());
+            _ingrediente.Add(new Ou());
+            _ingrediente.Add(new Faina());
+            _ingrediente.Add(new Ceapa());
+            _ingrediente.Add(new Morcov());
+            _ingrediente.Add(new Cartof());
+        }
+    }
+
+    public class CordonBleu : Produs
+    {
+        public CordonBleu()
+        {
+            _nume = "Cordon Bleu";
+            _gramaj = 250.0;
+            _pret = 17.0;
+            _ingrediente.Add(new CarnePui());
+            _ingrediente.Add(new Ou());
+            _ingrediente.Add(new Faina());
+            _ingrediente.Add(new Cascaval());
+            _ingrediente.Add(new SuncaPresta());
+        }
+    }
+
+    //Preparate Porc
+    public class CeafaLaGratar : Produs
+    {
+        public CeafaLaGratar()
+        {
+            _nume = "Ceafa La Gratar";
+            _gramaj = 250.0;
+            _pret = 14.0;
+            _ingrediente.Add(new CeafaDePorc());
+            _ingrediente.Add(new Sare());
+            _ingrediente.Add(new Piper());
+            _ingrediente.Add(new UleiDeMasline());
+        }
+    }
+
+    public class CotletLaGratar : Produs
+    {
+        public CotletLaGratar()
+        {
+            _nume = "Cotlet La Gratar";
+            _gramaj = 250.0;
+            _pret = 14.0;
+            _ingrediente.Add(new CotletDePorc());
+            _ingrediente.Add(new Sare());
+            _ingrediente.Add(new Piper());
+            _ingrediente.Add(new UleiDeMasline());
+            _ingrediente.Add(new SosTzatziki());
+        }
+    }
+
+    public class FrigaruiDePorcCuLegume : Produs
+    {
+        public FrigaruiDePorcCuLegume()
+        {
+            _nume = "Frigarui De Porc Cu Legume";
+            _gramaj = 300.0;
+            _pret = 17.0;
+            _ingrediente.Add(new CarneDePorc());
+            _ingrediente.Add(new Ardei());
+            _ingrediente.Add(new Ciuperci());
+            _ingrediente.Add(new Ceapa());
+            _ingrediente.Add(new Rosie());
+        }
+    }
+
+    public class SnitelDePorc : Produs
+    {
+        public SnitelDePorc()
+        {
+            _nume = "Snitel De Porc";
+            _gramaj = 200.0;
+            _pret = 15.0;
+            _ingrediente.Add(new CarneDePorc());
+            _ingrediente.Add(new Ou());
+            _ingrediente.Add(new Faina());
+            _ingrediente.Add(new UleiDeMasline());
+            _ingrediente.Add(new Sare());
+        }
+    }
+
+    public class CiolanDePorcCuVarzaCalita : Produs
+    {
+        public CiolanDePorcCuVarzaCalita()
+        {
+            _nume = "Ciolan De Porc Cu Varza Calita";
+            _gramaj = 300.0;
+            _pret = 19.0;
+            _ingrediente.Add(new CiolanDePorc());
+            _ingrediente.Add(new Varza());
+            _ingrediente.Add(new UleiDeMasline());
+            _ingrediente.Add(new Ceapa());
+            _ingrediente.Add(new BoiaDulce());
+            _ingrediente.Add(new Sare());
+            _ingrediente.Add(new Piper());
+        }
+    }
+
+    public class TochituraMoldoveneascaCuMamaliga : Produs
+    {
+        public TochituraMoldoveneascaCuMamaliga()
+        {
+            _nume = "Tochitura Moldoveneasca Cu Mamaliga";
+            _gramaj = 250.0;
+            _pret = 20.0;
+            _ingrediente.Add(new CarneDePorc());
+            _ingrediente.Add(new Ou());
+            _ingrediente.Add(new Branza());
+            _ingrediente.Add(new Usturoi());
+            _ingrediente.Add(new Malai());
+            _ingrediente.Add(new Sare());
+            _ingrediente.Add(new Piper());
+        }
+    }
+
+    public class Mici : Produs
+    {
+        public Mici()
+        {
+            _nume = "Mici";
+            _gramaj = 80.0;
+            _pret = 3.0;
+            _ingrediente.Add(new CarneDePorc());
+            _ingrediente.Add(new Mustar());
+            _ingrediente.Add(new Sare());
+            _ingrediente.Add(new Piper());
+        }
+    }
+
+    public class CiolanDePorcCuFasole : Produs
+    {
+        public CiolanDePorcCuFasole()
+        {
+            _nume = "Ciolan De Porc Cu Fasole";
+            _gramaj = 300.0;
+            _pret = 19.0;
+            _ingrediente.Add(new CiolanDePorc());
+            _ingrediente.Add(new Fasole());
+            _ingrediente.Add(new UleiDeMasline());
+            _ingrediente.Add(new Ceapa());
+            _ingrediente.Add(new Sare());
+            _ingrediente.Add(new Piper());
+        }
+    }
+
+
+    //Deserturi
+    public class ClatiteCuGem : Produs
+    {
+        public ClatiteCuGem()
+        {
+            _nume = "Clatite Cu Gem";
+            _gramaj = 200.0;
+            _pret = 6.0;
+            _ingrediente.Add(new Ou());
+            _ingrediente.Add(new Faina());
+            _ingrediente.Add(new Lapte());
+            _ingrediente.Add(new EsentaVanilie());
+            _ingrediente.Add(new Gem());
+        }
+    }
+
+    public class ClatiteCuFinettiSiBanana : Produs
+    {
+        public ClatiteCuFinettiSiBanana()
+        {
+            _nume = "Clatite Cu Finetti Si Banana";
+            _gramaj = 200.0;
+            _pret = 7.0;
+            _ingrediente.Add(new Ou());
+            _ingrediente.Add(new Faina());
+            _ingrediente.Add(new Lapte());
+            _ingrediente.Add(new EsentaVanilie());
+            _ingrediente.Add(new Finetti());
+            _ingrediente.Add(new Banana());
+        }
+    }
+
+    public class ClatiteCuInghetataSiFrisca : Produs
+    {
+        public ClatiteCuInghetataSiFrisca()
+        {
+            _nume = "Clatite Cu Inghetata Si Frisca";
+            _gramaj = 200.0;
+            _pret = 8.0;
+            _ingrediente.Add(new Ou());
+            _ingrediente.Add(new Faina());
+            _ingrediente.Add(new Lapte());
+            _ingrediente.Add(new EsentaVanilie());
+            _ingrediente.Add(new InghetataVanilie());
+            _ingrediente.Add(new Frisca());
+            _ingrediente.Add(new Topping());
+        }
+    }
+
+    public class Papanasi : Produs
+    {
+        public Papanasi()
+        {
+            _nume = "Papanasi";
+            _gramaj = 200.0;
+            _pret = 11.0;
+            _ingrediente.Add(new Ou());
+            _ingrediente.Add(new Faina());
+            _ingrediente.Add(new Zahar());
+            _ingrediente.Add(new BranzaDulce());
+            _ingrediente.Add(new EsentaVanilie());
+            _ingrediente.Add(new Smantana());
+            _ingrediente.Add(new Dulceata());
+        }
+    }
+
+    public class InghetataAsortata : Produs
+    {
+        public InghetataAsortata()
+        {
+            _nume = "Inghetata Asortata";
+            _gramaj = 100.0;
+            _pret = 8.0;
+            _ingrediente.Add(new InghetataVanilie());
+            _ingrediente.Add(new InghetataCacao());
+            _ingrediente.Add(new InghetataCapsuni());
+            _ingrediente.Add(new Topping());
+            _ingrediente.Add(new Frisca());
+        }
+    }
+
+    public class Tiramisu : Produs
+    {
+        public Tiramisu()
+        {
+            _nume = "Tiramisu";
+            _gramaj = 100.0;
+            _pret = 8.0;
+            _ingrediente.Add(new Mascarpone());
+            _ingrediente.Add(new Cafea());
+            _ingrediente.Add(new Piscot());
+            _ingrediente.Add(new EsentaVanilie());
+            _ingrediente.Add(new Zahar());
+            _ingrediente.Add(new Ou());
+            _ingrediente.Add(new Cacao());
+        }
+    }
+
+    public class Baclava : Produs
+    {
+        public Baclava()
+        {
+            _nume = "Baclava";
+            _gramaj = 200.0;
+            _pret = 9.0;
+            _ingrediente.Add(new Nuca());
+            _ingrediente.Add(new FoiPlacinta());
+            _ingrediente.Add(new Unt());
+            _ingrediente.Add(new EsentaVanilie());
+            _ingrediente.Add(new Zahar());
+            _ingrediente.Add(new Lamaie());
+            _ingrediente.Add(new Fistic());
+        }
+    }
+
+    public class CheesecakeCuCapsuni : Produs
+    {
+        public CheesecakeCuCapsuni()
+        {
+            _nume = "Cheesecake Cu Capsuni";
+            _gramaj = 200.0;
+            _pret = 13.0;
+            _ingrediente.Add(new Biscuiti());
+            _ingrediente.Add(new CremaDeBranza());
+            _ingrediente.Add(new Unt());
+            _ingrediente.Add(new EsentaVanilie());
+            _ingrediente.Add(new Zahar());
+            _ingrediente.Add(new FriscaLichida());
+            _ingrediente.Add(new Capsuni());
+            _ingrediente.Add(new Gelatina());
+        }
+    }
+
+    public class TortCuFructe : Produs
+    {
+        public TortCuFructe()
+        {
+            _nume = "Tort Cu Fructe";
+            _gramaj = 100.0;
+            _pret = 8.0;
+            _ingrediente.Add(new FriscaLichida());
+            _ingrediente.Add(new Mascarpone());
+            _ingrediente.Add(new Capsuni());
+            _ingrediente.Add(new Zmeura());
+            _ingrediente.Add(new Zahar());
+            _ingrediente.Add(new EsentaVanilie());
+            _ingrediente.Add(new Faina());
+            _ingrediente.Add(new Ou());
+            _ingrediente.Add(new Ulei());
+        }
+    }
+
+    public class TortCuCiocolata : Produs
+    {
+        public TortCuCiocolata()
+        {
+            _nume = "Tort Cu Ciocolata";
+            _gramaj = 100.0;
+            _pret = 8.0;
+            _ingrediente.Add(new FriscaLichida());
+            _ingrediente.Add(new Mascarpone());
+            _ingrediente.Add(new Cacao());
+            _ingrediente.Add(new Ciocolata());
+            _ingrediente.Add(new Zahar());
+            _ingrediente.Add(new EsentaVanilie());
+            _ingrediente.Add(new Faina());
+            _ingrediente.Add(new Ou());
         }
     }
 }

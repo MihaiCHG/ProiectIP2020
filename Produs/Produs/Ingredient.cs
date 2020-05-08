@@ -345,7 +345,7 @@ namespace Restaurant
 
         public Smantana()
         {
-            _nume = "Salata Verde";
+            _nume = "Smantana";
             _detalii = "3% grasime";
         }
         public string Show()
@@ -653,4 +653,558 @@ namespace Restaurant
         }
     }
 
+    public class CeafaDePorc : Ingredient
+    {
+        private string _nume;
+
+        public CeafaDePorc()
+        {
+            _nume = "Ceafa De Porc";
+        }
+        public string Show()
+        {
+            return _nume;
+        }
+    }
+
+    public class SosTzatziki : Ingredient
+    {
+        private string _nume;
+
+        public SosTzatziki()
+        {
+            _nume = "Sos Tzatziki";
+        }
+        public string Show()
+        {
+            return _nume;
+        }
+    }
+
+    public class CotletDePorc : Ingredient
+    {
+        private string _nume;
+
+        public CotletDePorc()
+        {
+            _nume = "Cotlet De Porc";
+        }
+        public string Show()
+        {
+            return _nume;
+        }
+    }
+
+    public class CarneDePorc : Ingredient
+    {
+        private string _nume;
+
+        public CarneDePorc()
+        {
+            _nume = "Carne De Porc";
+        }
+        public string Show()
+        {
+            return _nume;
+        }
+    }
+
+    public class Ciuperci : Ingredient
+    {
+        private string _nume;
+
+        public Ciuperci()
+        {
+            _nume = "Ciuperci";
+        }
+        public string Show()
+        {
+            return _nume;
+        }
+    }
+
+    public class CiolanDePorc : Ingredient
+    {
+        private string _nume;
+
+        public CiolanDePorc()
+        {
+            _nume = "Ciolan De Porc";
+        }
+        public string Show()
+        {
+            return _nume;
+        }
+    }
+
+    public class Varza : Ingredient
+    {
+        private string _nume;
+
+        public Varza()
+        {
+            _nume = "Varza";
+        }
+        public string Show()
+        {
+            return _nume;
+        }
+    }
+
+    public class BoiaDulce : Ingredient
+    {
+        private string _nume;
+
+        public BoiaDulce()
+        {
+            _nume = "Boia Dulce";
+        }
+        public string Show()
+        {
+            return _nume;
+        }
+    }
+
+    public class Malai : Ingredient
+    {
+        private string _nume;
+
+        public Malai()
+        {
+            _nume = "Malai";
+        }
+        public string Show()
+        {
+            return _nume;
+        }
+    }
+
+    public class Lapte : Ingredient
+    {
+        private string _nume;
+
+        public Lapte()
+        {
+            _nume = "Lapte";
+        }
+        public string Show()
+        {
+            return _nume;
+        }
+    }
+
+    public class EsentaVanilie : Ingredient
+    {
+        private string _nume;
+
+        public EsentaVanilie()
+        {
+            _nume = "Esenta Vanilie";
+        }
+        public string Show()
+        {
+            return _nume;
+        }
+    }
+
+    public class Gem : Ingredient
+    {
+        private string _nume;
+        private string _detalii;
+
+        public Gem()
+        {
+            _nume = "Gem";
+            _detalii = "Capsuni, zmeura, afine";
+        }
+        public string Show()
+        {
+            return _nume+": "+_detalii;
+        }
+    }
+
+    public class Finetti : Ingredient
+    {
+        private string _nume;
+
+        public Finetti()
+        {
+            _nume = "Finetti";
+        }
+        public string Show()
+        {
+            return _nume;
+        }
+    }
+
+    public class Banana : Ingredient
+    {
+        private string _nume;
+
+        public Banana()
+        {
+            _nume = "Banana";
+        }
+        public string Show()
+        {
+            return _nume;
+        }
+    }
+
+    public class InghetataVanilie : Ingredient
+    {
+        private string _nume;
+
+        public InghetataVanilie()
+        {
+            _nume = "Inghetata vanilie";
+        }
+        public string Show()
+        {
+            return _nume;
+        }
+    }
+
+    public class Topping : Ingredient
+    {
+        private string _nume;
+
+        public Topping()
+        {
+            _nume = "Topping";
+        }
+        public string Show()
+        {
+            return _nume;
+        }
+    }
+
+    public class BranzaDulce : Ingredient
+    {
+        private string _nume;
+
+        public BranzaDulce()
+        {
+            _nume = "BranzaDulce";
+        }
+        public string Show()
+        {
+            return _nume;
+        }
+    }
+
+    public class Dulceata : Ingredient
+    {
+        private string _nume;
+        private string _detalii;
+
+        public Dulceata()
+        {
+            _nume = "Dulceata";
+            _detalii = "Capsuni, zmeura, afine, visine";
+        }
+        public string Show()
+        {
+            return _nume + ": " + _detalii;
+        }
+    }
+
+    public class Zahar : Ingredient
+    {
+        private string _nume;
+
+        public Zahar()
+        {
+            _nume = "Zahar";
+        }
+        public string Show()
+        {
+            return _nume;
+        }
+    }
+
+    public class InghetataCapsuni : Ingredient
+    {
+        private string _nume;
+
+        public InghetataCapsuni()
+        {
+            _nume = "Inghetata Capsuni";
+        }
+        public string Show()
+        {
+            return _nume;
+        }
+    }
+
+    public class InghetataCacao : Ingredient
+    {
+        private string _nume;
+
+        public InghetataCacao()
+        {
+            _nume = "Inghetata Cacao";
+        }
+        public string Show()
+        {
+            return _nume;
+        }
+    }
+
+    public class Mascarpone : Ingredient
+    {
+        private string _nume;
+
+        public Mascarpone()
+        {
+            _nume = "Mascarpone";
+        }
+        public string Show()
+        {
+            return _nume;
+        }
+    }
+
+    public class Cafea : Ingredient
+    {
+        private string _nume;
+
+        public Cafea()
+        {
+            _nume = "Cafea";
+        }
+        public string Show()
+        {
+            return _nume;
+        }
+    }
+
+    public class Piscot : Ingredient
+    {
+        private string _nume;
+        private string _detalii;
+
+        public Piscot()
+        {
+            _nume = "Piscot";
+            _detalii = "de sampanie";
+        }
+        public string Show()
+        {
+            return _nume+ ": "+ _detalii;
+        }
+    }
+
+    public class Cacao : Ingredient
+    {
+        private string _nume;
+
+        public Cacao()
+        {
+            _nume = "Cacao";
+        }
+        public string Show()
+        {
+            return _nume;
+        }
+    }
+
+    public class Nuca : Ingredient
+    {
+        private string _nume;
+
+        public Nuca()
+        {
+            _nume = "Nuca";
+        }
+        public string Show()
+        {
+            return _nume;
+        }
+    }
+
+    public class FoiPlacinta : Ingredient
+    {
+        private string _nume;
+
+        public FoiPlacinta()
+        {
+            _nume = "Foi Placinta";
+        }
+        public string Show()
+        {
+            return _nume;
+        }
+    }
+
+    public class Unt : Ingredient
+    {
+        private string _nume;
+
+        public Unt()
+        {
+            _nume = "Unt";
+        }
+        public string Show()
+        {
+            return _nume;
+        }
+    }
+
+    public class Lamaie : Ingredient
+    {
+        private string _nume;
+
+        public Lamaie()
+        {
+            _nume = "Lamaie";
+        }
+        public string Show()
+        {
+            return _nume;
+        }
+    }
+
+    public class Fistic : Ingredient
+    {
+        private string _nume;
+
+        public Fistic()
+        {
+            _nume = "Fistic";
+        }
+        public string Show()
+        {
+            return _nume;
+        }
+    }
+
+    public class CremaDeBranza : Ingredient
+    {
+        private string _nume;
+
+        public CremaDeBranza()
+        {
+            _nume = "Crema De Branza";
+        }
+        public string Show()
+        {
+            return _nume;
+        }
+    }
+
+    public class Biscuiti : Ingredient
+    {
+        private string _nume;
+
+        public Biscuiti()
+        {
+            _nume = "Biscuiti";
+        }
+        public string Show()
+        {
+            return _nume;
+        }
+    }
+
+    public class FriscaLichida : Ingredient
+    {
+        private string _nume;
+
+        public FriscaLichida()
+        {
+            _nume = "Frisca Lichida";
+        }
+        public string Show()
+        {
+            return _nume;
+        }
+    }
+
+    public class Capsuni : Ingredient
+    {
+        private string _nume;
+
+        public Capsuni()
+        {
+            _nume = "Capsuni";
+        }
+        public string Show()
+        {
+            return _nume;
+        }
+    }
+
+    public class Gelatina : Ingredient
+    {
+        private string _nume;
+
+        public Gelatina()
+        {
+            _nume = "Gelatina";
+        }
+        public string Show()
+        {
+            return _nume;
+        }
+    }
+
+    public class Zmeura : Ingredient
+    {
+        private string _nume;
+
+        public Zmeura()
+        {
+            _nume = "Zmeura";
+        }
+        public string Show()
+        {
+            return _nume;
+        }
+    }
+
+    public class Ulei : Ingredient
+    {
+        private string _nume;
+
+        public Ulei()
+        {
+            _nume = "Ulei";
+        }
+        public string Show()
+        {
+            return _nume;
+        }
+    }
+
+    public class Ciocolata : Ingredient
+    {
+        private string _nume;
+        private string _detalii;
+
+        public Ciocolata()
+        {
+            _nume = "Ciocolata";
+            _detalii = "70% cacao";
+        }
+        public string Show()
+        {
+            return _nume + ": " + _detalii;
+
+        }
+    }
+
+    public class Frisca : Ingredient
+    {
+        private string _nume;
+
+        public Frisca()
+        {
+            _nume = "Frisca";
+        }
+        public string Show()
+        {
+            return _nume;
+        }
+    }
 }
