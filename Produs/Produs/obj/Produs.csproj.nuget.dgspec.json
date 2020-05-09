@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mihai\\source\\repos\\Produs\\Produs\\Produs.csproj": {}
+    "C:\\Users\\Mihai\\Desktop\\Produs\\Produs\\Produs.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mihai\\source\\repos\\Produs\\Produs\\Produs.csproj": {
+    "C:\\Users\\Mihai\\Desktop\\Produs\\Produs\\Produs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mihai\\source\\repos\\Produs\\Produs\\Produs.csproj",
+        "projectUniqueName": "C:\\Users\\Mihai\\Desktop\\Produs\\Produs\\Produs.csproj",
         "projectName": "Produs",
-        "projectPath": "C:\\Users\\Mihai\\source\\repos\\Produs\\Produs\\Produs.csproj",
+        "projectPath": "C:\\Users\\Mihai\\Desktop\\Produs\\Produs\\Produs.csproj",
         "packagesPath": "C:\\Users\\Mihai\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mihai\\source\\repos\\Produs\\Produs\\obj\\",
+        "outputPath": "C:\\Users\\Mihai\\Desktop\\Produs\\Produs\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mihai\\AppData\\Roaming\\NuGet\\NuGet.Config",
