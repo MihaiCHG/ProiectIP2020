@@ -1,0 +1,13 @@
+D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Commons.dll
+D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Commons.pdb
+D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Restaurant.Form1.resources
+D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

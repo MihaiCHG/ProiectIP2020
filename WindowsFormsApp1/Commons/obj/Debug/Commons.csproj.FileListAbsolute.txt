@@ -1,0 +1,6 @@
+D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\Commons\bin\Debug\Commons.dll
+D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\Commons\bin\Debug\Commons.pdb
+D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\Commons\obj\Debug\Commons.csprojAssemblyReference.cache
+D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\Commons\obj\Debug\Commons.csproj.CoreCompileInputs.cache
+D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\Commons\obj\Debug\Commons.dll
+D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\Commons\obj\Debug\Commons.pdb
