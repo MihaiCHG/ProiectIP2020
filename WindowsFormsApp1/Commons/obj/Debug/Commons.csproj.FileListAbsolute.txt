@@ -4,3 +4,9 @@ D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\Commons\obj\Debug\Com
 D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\Commons\obj\Debug\Commons.csproj.CoreCompileInputs.cache
 D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\Commons\obj\Debug\Commons.dll
 D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\Commons\obj\Debug\Commons.pdb
+C:\Users\Mihai\Desktop\WindowsFormsApp1\Commons\bin\Debug\Commons.dll
+C:\Users\Mihai\Desktop\WindowsFormsApp1\Commons\bin\Debug\Commons.pdb
+C:\Users\Mihai\Desktop\WindowsFormsApp1\Commons\obj\Debug\Commons.csprojAssemblyReference.cache
+C:\Users\Mihai\Desktop\WindowsFormsApp1\Commons\obj\Debug\Commons.csproj.CoreCompileInputs.cache
+C:\Users\Mihai\Desktop\WindowsFormsApp1\Commons\obj\Debug\Commons.dll
+C:\Users\Mihai\Desktop\WindowsFormsApp1\Commons\obj\Debug\Commons.pdb
