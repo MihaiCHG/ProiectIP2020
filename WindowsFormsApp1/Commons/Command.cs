@@ -9,11 +9,17 @@ namespace Restaurant
     public class Command
     {
         private List<Produs> _command;
+        private int nrMasa;
         private double pret;
         public double PretComanda
         {
             get => pret;
             set => pret = value;
+        }
+        public int NrMasa
+        {
+            get => nrMasa;
+            set => nrMasa = value;
         }
         public List<Produs> CommandList
         {
