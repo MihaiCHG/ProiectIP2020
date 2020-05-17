@@ -10,3 +10,4 @@ C:\Users\Mihai\Desktop\WindowsFormsApp1\Commons\obj\Debug\Commons.csprojAssembly
 C:\Users\Mihai\Desktop\WindowsFormsApp1\Commons\obj\Debug\Commons.csproj.CoreCompileInputs.cache
 C:\Users\Mihai\Desktop\WindowsFormsApp1\Commons\obj\Debug\Commons.dll
 C:\Users\Mihai\Desktop\WindowsFormsApp1\Commons\obj\Debug\Commons.pdb
+D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\Commons\bin\Debug\Commons.dll.config

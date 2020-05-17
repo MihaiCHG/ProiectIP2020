@@ -7,3 +7,4 @@ D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\Presenter\obj\Debug\P
 D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\Presenter\obj\Debug\Presenter.csproj.CopyComplete
 D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\Presenter\obj\Debug\Presenter.dll
 D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\Presenter\obj\Debug\Presenter.pdb
+D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\Presenter\bin\Debug\Commons.dll.config

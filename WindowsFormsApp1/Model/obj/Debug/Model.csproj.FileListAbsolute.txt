@@ -7,3 +7,6 @@ D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\Model\bin\Debug\Commo
 D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\Model\obj\Debug\Model.csproj.CopyComplete
 D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\Model\obj\Debug\Model.dll
 D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\Model\obj\Debug\Model.pdb
+D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\Model\bin\Debug\Database.mdf
+D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\Model\bin\Debug\Database_log.ldf
+D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\Model\bin\Debug\Commons.dll.config

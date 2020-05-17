@@ -18,15 +18,16 @@ namespace Restaurant
         private List<Label> prods;
         public Form1()
         {
+            _model = new Model();
             InitializeComponent();
             SetPresenter(_presenter);
             SetModel(_model);
             //Pentru meniu, se va face cate un TapPage pentru fiecare tip de produs, iar in fiecare tabPage se va pune produsele din tipul respectiv.
             //Asta se va face din mvc, cred:))
-            Produs prod = new SpaghettiCarbonara();
+            /*Produs prod = new SpaghettiCarbonara();
             ProductLabel p = new ProductLabel(1, 0, prod, tabPage);
             Produs prod2 = new TortCuCiocolata();
-            ProductLabel p2 = new ProductLabel(1, 10, prod2, tabPage);
+            ProductLabel p2 = new ProductLabel(1, 10, prod2, tabPage);*/
 
 
             //Pentru creare comanda:
@@ -84,6 +85,11 @@ namespace Restaurant
             panelEmployee.Visible = false;
             panelAddCommand.Visible = true;
             panelMeniu.Visible = false;
+        }
+
+        private void tabPage_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

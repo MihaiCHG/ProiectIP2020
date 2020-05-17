@@ -39,8 +39,8 @@
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.panelMeniu = new System.Windows.Forms.Panel();
             this.panelAddCommand = new System.Windows.Forms.Panel();
-            this.labelMasa = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.labelMasa = new System.Windows.Forms.Label();
             this.groupBoxUser.SuspendLayout();
             this.tabControlMeniu.SuspendLayout();
             this.panelMeniu.SuspendLayout();
@@ -126,6 +126,7 @@
             this.tabPage.TabIndex = 0;
             this.tabPage.Text = "tabPage1";
             this.tabPage.UseVisualStyleBackColor = true;
+            this.tabPage.Click += new System.EventHandler(this.tabPage_Click);
             // 
             // tabPage2
             // 
@@ -156,6 +157,13 @@
             this.panelAddCommand.Size = new System.Drawing.Size(684, 368);
             this.panelAddCommand.TabIndex = 0;
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(82, 9);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(43, 20);
+            this.textBox1.TabIndex = 1;
+            // 
             // labelMasa
             // 
             this.labelMasa.AutoSize = true;
@@ -164,13 +172,6 @@
             this.labelMasa.Size = new System.Drawing.Size(50, 13);
             this.labelMasa.TabIndex = 0;
             this.labelMasa.Text = "Masa Nr.";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(82, 9);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(43, 20);
-            this.textBox1.TabIndex = 1;
             // 
             // Form1
             // 

@@ -87,6 +87,14 @@
       <Project>{73f228fb-807d-4a18-b7ef-1ddd4ab248b8}</Project>
       <Name>Commons</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{24e4556b-513b-4363-b218-62794948778a}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Presenter\Presenter.csproj">
+      <Project>{dc1037bb-76b4-44a3-a10d-1ec97164c41e}</Project>
+      <Name>Presenter</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
