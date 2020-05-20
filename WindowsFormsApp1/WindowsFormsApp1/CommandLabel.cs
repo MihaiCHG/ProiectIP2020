@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Restaurant;
 
-namespace WindowsFormsApp1
+namespace Restaurant
 {
     public class CommandLabel
     {
         private Command _command;
         private Label _commandDesc;
         private Button _buttonResolve;
-        CommandLabel(int x, int y, Command command)
+        public CommandLabel(int x, int y, Command command, Panel panel)
         {
             _command = command;
             _commandDesc = new Label();
@@ -29,6 +29,8 @@ namespace WindowsFormsApp1
             _buttonResolve.AutoSize=true;
             _buttonResolve.Location = new System.Drawing.Point(x * 10 + 100, y * 50 + 50);
             _buttonResolve.Click += new System.EventHandler(this.buttonResolve_Click);
+            panel.Controls.Add(_commandDesc);
+            panel.Controls.Add(_buttonResolve);
         }
         private void buttonResolve_Click(object sender, EventArgs e)
         {

@@ -8,8 +8,9 @@ namespace Restaurant
 {
     public interface IPresenter
     {
-        Meniu Menu { get; }
+        //Meniu Menu { get; }
         void addCommand(Command command);
         void deleteCommand(Command command);
+        Produs getProductByName(String productName);
     }
 }

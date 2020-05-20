@@ -10,15 +10,10 @@ namespace Restaurant
     {
         private IModel _model;
         private IView _view;
-        private Meniu _menu;
         public Presenter(IView view, IModel model)
         {
             _model = model;
             _view = view;
-        }
-        public Meniu Menu
-        {
-            get => _menu;
         }
         public void addCommand(Command command)
         {
@@ -33,6 +28,19 @@ namespace Restaurant
         public void deleteCommand(Command command)
         {
             _model.deleteCommand(command);
+        }
+        public void showCommands()
+        {
+            _view.Display();
+        }
+        public Produs getProductByName(string productName)
+        {
+            foreach(Produs p in _model.Menu.ProductList)
+            {
+                if (p.Nume == productName)
+                    return p;
+            }
+            return null;
         }
     }
 }

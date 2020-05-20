@@ -10,6 +10,10 @@ namespace Restaurant
         protected List<Ingredient> _ingrediente;
         protected double _gramaj;
         protected double _pret;
+        public Produs()
+        {
+            _ingrediente = new List<Ingredient>();
+        }
         public String Nume
         {
             get => _nume;

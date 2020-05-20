@@ -8,7 +8,7 @@ namespace Restaurant
 {
     public interface IModel
     {
-        List<Produs> Commands { get ;}
+        List<String> Commands { get ;}
         Meniu Menu { get; }
         void addCommand(Command comm);
         void deleteCommand(Command comm);
