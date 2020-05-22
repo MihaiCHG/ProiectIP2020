@@ -35,10 +35,12 @@ namespace Restaurant
         }
         public Produs getProductByName(string productName)
         {
-            foreach(Produs p in _model.Menu.ProductList)
-            {
-                if (p.Nume == productName)
-                    return p;
+            foreach(TipProdus prodType in _model.Menu.ProductList){
+                foreach (Produs p in prodType.GetProducts)
+                {
+                    if (p.Nume == productName)
+                        return p;
+                }
             }
             return null;
         }
