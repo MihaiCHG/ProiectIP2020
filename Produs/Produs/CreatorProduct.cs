@@ -6,7 +6,7 @@ using Produs;
 
 namespace Restaurant
 {
-    public abstract class CreatorProduct : Produs
+    public class CreatorProduct
     {
         public Produs CreateProduct(ProductName type) 
         {
