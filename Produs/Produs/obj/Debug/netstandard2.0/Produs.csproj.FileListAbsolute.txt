@@ -1,0 +1,9 @@
+E:\Facultate\An3-Sem2\IP\ProiectIP2020-master\ProiectIP2020-master\Produs\Produs\bin\Debug\netstandard2.0\Produs.deps.json
+E:\Facultate\An3-Sem2\IP\ProiectIP2020-master\ProiectIP2020-master\Produs\Produs\bin\Debug\netstandard2.0\Produs.dll
+E:\Facultate\An3-Sem2\IP\ProiectIP2020-master\ProiectIP2020-master\Produs\Produs\bin\Debug\netstandard2.0\Produs.pdb
+E:\Facultate\An3-Sem2\IP\ProiectIP2020-master\ProiectIP2020-master\Produs\Produs\obj\Debug\netstandard2.0\Produs.csprojAssemblyReference.cache
+E:\Facultate\An3-Sem2\IP\ProiectIP2020-master\ProiectIP2020-master\Produs\Produs\obj\Debug\netstandard2.0\Produs.AssemblyInfoInputs.cache
+E:\Facultate\An3-Sem2\IP\ProiectIP2020-master\ProiectIP2020-master\Produs\Produs\obj\Debug\netstandard2.0\Produs.AssemblyInfo.cs
+E:\Facultate\An3-Sem2\IP\ProiectIP2020-master\ProiectIP2020-master\Produs\Produs\obj\Debug\netstandard2.0\Produs.dll
+E:\Facultate\An3-Sem2\IP\ProiectIP2020-master\ProiectIP2020-master\Produs\Produs\obj\Debug\netstandard2.0\Produs.pdb
+E:\Facultate\An3-Sem2\IP\ProiectIP2020-master\ProiectIP2020-master\Produs\Produs\obj\Debug\netstandard2.0\Produs.csproj.CoreCompileInputs.cache

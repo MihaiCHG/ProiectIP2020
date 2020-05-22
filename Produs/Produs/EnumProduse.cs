@@ -24,7 +24,7 @@ namespace Produs
         PCiorbaDeVacuta,
         PCiorbaDeFasole,
         //Preparate Pui
-        PPietDePuiLaGratar,
+        PPieptDePuiLaGratar,
         PPieptDePuiCuSosGrogonzola,
         PFicateiPasare,
         PAripioarePicante,
