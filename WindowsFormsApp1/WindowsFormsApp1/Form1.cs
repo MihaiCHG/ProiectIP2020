@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -15,8 +16,8 @@ namespace Restaurant
     {
         private IPresenter _presenter;
         private IModel _model;
-        private List<Label> prods;
         private int nrOfCommands = 0;
+        private Meniu _meniu;
         public Form1()
         {
             _model = new Model();
@@ -24,17 +25,17 @@ namespace Restaurant
             InitializeComponent();
             SetPresenter(_presenter);
             SetModel(_model);
-            //Pentru meniu, se va face cate un TapPage pentru fiecare tip de produs, iar in fiecare tabPage se vor pune produsele din tipul respectiv.
-            //Asta se va face din mvc, cred:))
-            /*Produs prod = new SpaghettiCarbonara();
-            ProductLabel p = new ProductLabel(1, 0, prod, tabPage);
-            Produs prod2 = new TortCuCiocolata();
-            ProductLabel p2 = new ProductLabel(1, 10, prod2, tabPage);*/
+            panelEmployee.Visible = false;
+            _meniu = Meniu.GetInstance();
             initControls();
         }
         private void initControls()
         {
-            comboBoxPaste.Items.Add("Spaghetti Carbonara");
+            for(int i = 0; i < _meniu.ProductList.Count; i++)
+            {
+                TipProdus productsType = _meniu.ProductList[i];
+                ComboboxProducts comboboxProduct = new ComboboxProducts(1, i, productsType, panelMeniu, listBoxComenzi);
+            }
         }
         public void SetModel(IModel model)
         {
@@ -77,9 +78,10 @@ namespace Restaurant
             Command c = new Command(produseComanda);
             CommandLabel cl = new CommandLabel(0,nrOfCommands,c,panelEmployee);
             _presenter.addCommand(c);
+            listBoxComenzi.Items.Clear();
         }
 
-        private void buttonGustariReci_Click(object sender, EventArgs e)
+/*        private void buttonGustariReci_Click(object sender, EventArgs e)
         {
             string str = comboBoxGustariReci.SelectedItem.ToString();
             listBoxComenzi.Items.Add(str);
@@ -114,7 +116,7 @@ namespace Restaurant
             string str = comboBoxDesert.SelectedItem.ToString();
             listBoxComenzi.Items.Add(str);
         }
-
+        */
         private void angajatToolStripMenuItem_Click(object sender, EventArgs e)
         {
             panelEmployee.Visible = true;
