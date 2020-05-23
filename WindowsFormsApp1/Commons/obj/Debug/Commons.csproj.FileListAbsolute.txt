@@ -105,7 +105,6 @@ D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\Commons\bin\Debug\Sys
 D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\Commons\bin\Debug\System.Xml.XPath.XDocument.dll
 D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\Commons\bin\Debug\Produs.dll
 D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\Commons\bin\Debug\Produs.pdb
-D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\Commons\obj\Debug\Commons.csprojAssemblyReference.cache
 D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\Commons\obj\Debug\Commons.csproj.CoreCompileInputs.cache
 D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\Commons\obj\Debug\Commons.csproj.CopyComplete
 D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\Commons\obj\Debug\Commons.dll

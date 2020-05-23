@@ -28,6 +28,11 @@ namespace Restaurant
             panelEmployee.Visible = false;
             _meniu = Meniu.GetInstance();
             initControls();
+            loadCommandsFromDB();
+        }
+        public void closeApp()
+        {
+            ((Model)_model).Disconnect();
         }
         private void initControls()
         {
@@ -35,6 +40,29 @@ namespace Restaurant
             {
                 TipProdus productsType = _meniu.ProductList[i];
                 ComboboxProducts comboboxProduct = new ComboboxProducts(1, i, productsType, panelMeniu, listBoxComenzi);
+            }
+        }
+        private void loadCommandsFromDB()
+        {            
+            List<string> commandsFromDB = _model.Commands;
+            foreach(string commandStr in commandsFromDB)
+            {
+                nrOfCommands++;
+                List<Produs> productList = new List<Produs>();
+                string[] productListStr = commandStr.Split('#');
+                string[] productListStr1 = productListStr[1].Split('-');
+                string[] productListStr2 = productListStr[2].Split('-');
+                foreach (string p in productListStr1)
+                {
+                    Produs pr = _presenter.getProductByName(p);
+                    if(pr != null)
+                        productList.Add(pr);
+                }
+                Command command = new Command(productList);
+                command.PretComanda = Convert.ToDouble(productListStr2[0]);
+                command.NrMasa = Convert.ToInt32(productListStr2[1]);
+                
+                CommandLabel cl = new CommandLabel(_presenter, 0, nrOfCommands, command, panelEmployee);
             }
         }
         public void SetModel(IModel model)

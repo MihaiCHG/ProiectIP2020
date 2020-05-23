@@ -80,7 +80,7 @@ namespace Restaurant
                 // for one by one reading row 
                 while (dreader.Read())
                 {
-                    output = dreader.GetValue(0) + " - " + dreader.GetValue(1) + dreader.GetValue(2) + dreader.GetValue(3);
+                    output = dreader.GetValue(0) + "#" + dreader.GetValue(1) + "#" + dreader.GetValue(2) +"-"+ dreader.GetValue(3);
                     if (output != "")
                         commands.Add(output);
                 }
@@ -97,7 +97,7 @@ namespace Restaurant
             string produse = "";
             foreach(Produs p in cmd.CommandList)
             {
-                produse += p.Nume + " ";
+                produse += p.Nume + "-";
             }
             double pretComanda = cmd.PretComanda;
             int nrMasa = cmd.NrMasa;
@@ -136,7 +136,7 @@ namespace Restaurant
             string produse = "";
             foreach (Produs p in cmd.CommandList)
             {
-                produse += p.Nume + " ";
+                produse += p.Nume + "-";
             }
             sql = "DELETE FROM comenzi WHERE ListaProduse=" + "\'" + produse + "\'" + " AND Pret=" + cmd.PretComanda + " AND NrMasa=" + cmd.NrMasa;
 
@@ -155,7 +155,7 @@ namespace Restaurant
             // closing all the objects 
             cmdSql.Dispose();
         }
-        private void Disconnect()
+        public void Disconnect()
         {
             conn.Close();
         }
