@@ -76,7 +76,7 @@ namespace Restaurant
                 produseComanda.Add(p);
             }
             Command c = new Command(produseComanda);
-            CommandLabel cl = new CommandLabel(0,nrOfCommands,c,panelEmployee);
+            CommandLabel cl = new CommandLabel(_presenter,0,nrOfCommands,c,panelEmployee);
             _presenter.addCommand(c);
             listBoxComenzi.Items.Clear();
         }

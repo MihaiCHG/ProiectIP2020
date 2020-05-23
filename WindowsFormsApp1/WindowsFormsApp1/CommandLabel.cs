@@ -13,9 +13,14 @@ namespace Restaurant
         private Command _command;
         private Label _commandDesc;
         private Button _buttonResolve;
-        public CommandLabel(int x, int y, Command command, Panel panel)
+        private Presenter _presenter;
+        private Panel _panel;
+        public CommandLabel(IPresenter presenter, int x, int y, Command command, Panel panel)
         {
+            _presenter = (Presenter)presenter;
+
             _command = command;
+            _panel = panel;
             _commandDesc = new Label();
             _commandDesc.AutoSize = true;
             _commandDesc.Location = new System.Drawing.Point(x * 10, y * 50 + 25);
@@ -34,7 +39,9 @@ namespace Restaurant
         }
         private void buttonResolve_Click(object sender, EventArgs e)
         {
-            //De sters comanda si actualizat panel-ul
+            _presenter.deleteCommand(_command);
+            _panel.Controls.Remove(_commandDesc);
+            _panel.Controls.Remove(_buttonResolve);
         }
     }
 }

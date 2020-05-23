@@ -1,8 +1,15 @@
+D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Database.mdf
+D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Database_log.ldf
 D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
 D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
 D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
 D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Commons.dll
+D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Model.dll
+D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Presenter.dll
 D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Commons.pdb
+D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Commons.dll.config
+D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Model.pdb
+D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Presenter.pdb
 D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
 D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Restaurant.Form1.resources
 D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
@@ -11,10 +18,3 @@ D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\WindowsFormsApp1\obj\
 D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
 D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
-D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Commons.dll.config
-D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Database.mdf
-D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Database_log.ldf
-D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Model.dll
-D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Presenter.dll
-D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Model.pdb
-D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Presenter.pdb

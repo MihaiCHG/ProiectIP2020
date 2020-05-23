@@ -13,17 +13,34 @@ namespace Restaurant
         private List<Produs> _commands;
         private string dataDB;
         private Meniu _menu;
-        private int id;
+        private int lastID;
+        private int getIdOfCommand()
+        {
+            SqlCommand cmd;
+            SqlDataReader dreader;
+            string sql = "SELECT * FROM comenzi ORDER BY idcomanda";
+            cmd = new SqlCommand(sql, conn);
+            dreader = cmd.ExecuteReader();
+            int lastID = 0;
+            while (dreader.Read())
+            {
+                lastID = Convert.ToInt32(dreader.GetValue(0));
+            }
+            dreader.Close();
+            cmd.Dispose();
+            return lastID;
+        }
         public Model()
         {
             _commands = new List<Produs>();
             loadDB();
             dataDB = "";
             _menu = Meniu.GetInstance();
+            lastID = getIdOfCommand();
         }
         public void loadDB()
         {
-            id = 0;
+
             string constr;
 
             constr = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\Model\Database.mdf;Integrated Security=True";
@@ -59,7 +76,7 @@ namespace Restaurant
 
                 // fetch all the rows from the demo table 
                 dreader = cmd.ExecuteReader();
-
+                
                 // for one by one reading row 
                 while (dreader.Read())
                 {
@@ -76,6 +93,7 @@ namespace Restaurant
         }
         public void addCommand(Command cmd)
         {
+
             string produse = "";
             foreach(Produs p in cmd.CommandList)
             {
@@ -90,8 +108,8 @@ namespace Restaurant
 
             SqlCommand cmdsql;
             // use the defined sql statement against our database 
-            sql = "INSERT INTO comenzi (IdComanda, ListaProduse, Pret, NrMasa) values(" +id+ ", '" + produse + "'," + pretComanda  +", " + nrMasa + ")";
-            id++;
+            lastID++;
+            sql = "INSERT INTO comenzi (IdComanda, ListaProduse, Pret, NrMasa) values(" +lastID+ ", '" + produse + "'," + pretComanda  +", " + nrMasa + ")";
             // use to execute the sql command so we are passing query and connection object 
             cmdsql = new SqlCommand(sql, conn);
 
@@ -103,11 +121,39 @@ namespace Restaurant
 
             // closing all the objects 
             cmdsql.Dispose();
-            conn.Close();
         }
         public void deleteCommand(Command cmd)
         {
-            int id = cmd.NrMasa;
+            SqlCommand cmdSql;
+
+            // data adapter object is use to insert, update or delete commands 
+            SqlDataAdapter adap = new SqlDataAdapter();
+
+            string sql = "";
+
+            // use the define SQL statement  
+            // against our database
+            string produse = "";
+            foreach (Produs p in cmd.CommandList)
+            {
+                produse += p.Nume + " ";
+            }
+            sql = "DELETE FROM comenzi WHERE ListaProduse=" + "\'" + produse + "\'" + " AND Pret=" + cmd.PretComanda + " AND NrMasa=" + cmd.NrMasa;
+
+            // use to execute the sql command so we  
+            // are passing query and connection object 
+            cmdSql = new SqlCommand(sql, conn);
+
+            // associate the insert SQL  
+            // command to adapter object 
+            adap.InsertCommand = new SqlCommand(sql, conn);
+
+            // use to execute the DML statement 
+            // against our database 
+            adap.InsertCommand.ExecuteNonQuery();
+
+            // closing all the objects 
+            cmdSql.Dispose();
         }
         private void Disconnect()
         {
