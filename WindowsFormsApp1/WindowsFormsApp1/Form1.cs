@@ -36,8 +36,10 @@ namespace Restaurant
         }
         private void initControls()
         {
+            //Implementare Heghea Mihail-Cristian
             for(int i = 0; i < _meniu.ProductList.Count; i++)
-            {
+            {// se parcurge lista de tipuri de produse si se creaza un obiect ComboboxProducts folosit pentru a afisa tipurile de prosuse impreuna cu
+                // produsele in panel-ul de meniu.
                 TipProdus productsType = _meniu.ProductList[i];
                 ComboboxProducts comboboxProduct = new ComboboxProducts(1, i, productsType, panelMeniu, listBoxComenzi);
             }
