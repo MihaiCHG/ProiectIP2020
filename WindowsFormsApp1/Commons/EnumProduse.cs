@@ -1,4 +1,10 @@
-﻿using System;
+﻿/*
+ * Fisier creat de Heghea Mihail-Cristian.
+ * Aceasta enumeratie este folosita pentru a fi primita de actre fabrica ca paramentru.
+ * Ea contine toate produsele.
+ * */
+
+using System;
 using System.Collections.Generic;
 using System.Text;
 

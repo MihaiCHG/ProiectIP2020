@@ -1,10 +1,18 @@
-﻿using System;
+﻿/*
+ * Fisier creat de Heghea Mihail-Cristian, implementare: Iorga Beatrice & Heghea Mihail-Cristian
+ * Fsiserul contine o interfata 'Ingredient' care este implementata cu fiecare ingredient.
+ * Fiecare ingredient este folosit in produse
+ * 
+ * */
+
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 
 namespace Restaurant
 {
+    //Heghea Mihail-Cristian
     public interface Ingredient
     {
         string Show();
@@ -653,6 +661,8 @@ namespace Restaurant
         }
     }
 
+
+    //Iorga Beatrice
     public class CeafaDePorc : Ingredient
     {
         private string _nume;

@@ -1,4 +1,8 @@
-﻿using System;
+﻿/* Fisier creat si implementat de Heghea Mihail-Cristian.
+ * Contine clasa Meniu, care va contine produsele disponibile de comandat.
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,11 +15,15 @@ namespace Restaurant
         private static Meniu _instance = null;
         private List<TipProdus> _productList;
         private CreatorProduct _creator;
-
+        /// <summary>
+        /// Constructorul este privat pentru ca implementeaza sablonul de proiectare Singleton.
+        /// </summary>
         private Meniu()
         {
+            //Se creaza fabrica si se initializeaza lista de tipuri de produse
             _creator = new CreatorProduct();
             _productList = new List<TipProdus>();
+            //Se creaza fiecare tip de produse si se adauga produsele in listele cu fiecare tip de produs
             //Gustari reci
             TipProdus gustariReci = new TipProdus("Gustari Reci");
             gustariReci.AddProduct(_creator.CreateProduct(ProductName.PSalataCaesar));
@@ -81,10 +89,18 @@ namespace Restaurant
             _productList.Add(deserturi);
 
         }
+        /// <summary>
+        /// Getter pentru lista de tipuri de produse
+        /// </summary>
         public List<TipProdus> ProductList
         {
             get => _productList;
         }
+        /// <summary>
+        /// Functia care intoarce instanta unica a clasei Meniu, daca a fost instantiata deja se intoarce instanta existenta
+        /// Iar daca nu a fost instantiata, se instantiaza si apoi se intoarce instanta.
+        /// </summary>
+        /// <returns></returns>
         public static Meniu GetInstance()
         {
             if (_instance == null)

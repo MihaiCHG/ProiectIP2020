@@ -1,9 +1,19 @@
-﻿using System;
+﻿/*
+ * Fisier creat si implementat de Heghea Mihail-Cristian & Iorga Beatrice
+ * Contine o clasa abstracta 'Produs' care contine numele produsului, lista de ingrediente, gramajul si pretul.
+ * Mai contine getter pentru numele produsului si pret.
+ * Contine o metoda 'descriere' care intoarce un string cu ingredientele si detaliile despre produs.
+ * 
+ * Fisierul contine si clasele cu produsele concrete care vor fi intoarse de catre fabrica (CreatorProduct). Aceste produse concrete extind clasa abstracta.
+ */
+using System;
 using System.Collections.Generic;
 using System.Net.Security;
 
 namespace Restaurant
 {
+
+    //Heghea Mihail-Cristian
     public abstract class Produs
     {
         protected string _nume;
@@ -22,16 +32,19 @@ namespace Restaurant
         {
             get => _pret;
         }
-
+        /// <summary>
+        /// Functie care genereaza un string cu lista de ingrediente si detaliile despre produs.
+        /// </summary>
+        /// <returns></returns>
         public string descriere()
         {
             string desc = _nume + "\t";
             for (int i = 0; i < _ingrediente.Count; i++)
             {
-                desc += _ingrediente[i] + "\n";
+                desc += _ingrediente[i] + "\n";// se adauga in string fiecare ingresient
             }
-            desc += "Gramaj: " + _gramaj + " Pret: " + _pret;
-            return desc;
+            desc += "Gramaj: " + _gramaj + " Pret: " + _pret;// se adauga pretul si gramajul
+            return desc;// se intoarce descrierea
         }
 
     }
@@ -48,7 +61,7 @@ namespace Restaurant
             _ingrediente.Add(new Bacon());
             _ingrediente.Add(new Ou()); 
             _ingrediente.Add(new Parmezan());
-        }
+        }// in constructor este setat numele, pretul, gramajul si sunt adaugate ingredientele in losta de ingrediente.
     }
 
     public class SpaghettiBolognese : Produs
@@ -346,7 +359,7 @@ namespace Restaurant
             _ingrediente.Add(new Sare());
         }
     }
-
+    //Iorga Beatrice
     public class ChifteluteMoldovenesti : Produs
     {
         public ChifteluteMoldovenesti()
