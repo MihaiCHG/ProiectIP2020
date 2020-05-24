@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 using Restaurant;
 
 namespace Restaurant
@@ -39,7 +40,15 @@ namespace Restaurant
         }
         private void buttonResolve_Click(object sender, EventArgs e)
         {
-            _presenter.deleteCommand(_command);
+            try
+            {
+                _presenter.deleteCommand(_command);
+            }
+            catch (SqlException sqlEx)
+            {
+                MessageBox.Show("Eroare la stergerea comenzii din baza de date:\r\n" + sqlEx.Message, "Eroare",MessageBoxButtons.OK,MessageBoxIcon.Error);
+            }
+            
             _panel.Controls.Remove(_commandDesc);
             _panel.Controls.Remove(_buttonResolve);
         }

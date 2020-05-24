@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data.SqlClient;
 
 namespace Restaurant
 {
@@ -23,11 +24,25 @@ namespace Restaurant
                 pret += p.Pret;
             }
             command.PretComanda = pret;
-            _model.addCommand(command);
+            try
+            {
+                _model.addCommand(command);
+            }
+            catch (SqlException sqlEx)
+            {
+                throw sqlEx;
+            }
         }
         public void deleteCommand(Command command)
         {
-            _model.deleteCommand(command);
+            try
+            {
+                _model.deleteCommand(command);
+            }
+            catch (SqlException sqlEx)
+            {
+                throw sqlEx;
+            }
         }
         public void showCommands()
         {

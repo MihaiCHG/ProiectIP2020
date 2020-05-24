@@ -117,14 +117,15 @@
             // manualDeUtilizareToolStripMenuItem
             // 
             this.manualDeUtilizareToolStripMenuItem.Name = "manualDeUtilizareToolStripMenuItem";
-            this.manualDeUtilizareToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
+            this.manualDeUtilizareToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.manualDeUtilizareToolStripMenuItem.Text = "Manual de utilizare";
             // 
             // despreToolStripMenuItem
             // 
             this.despreToolStripMenuItem.Name = "despreToolStripMenuItem";
-            this.despreToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
+            this.despreToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.despreToolStripMenuItem.Text = "Despre";
+            this.despreToolStripMenuItem.Click += new System.EventHandler(this.despreToolStripMenuItem_Click);
             // 
             // panelEmployee
             // 

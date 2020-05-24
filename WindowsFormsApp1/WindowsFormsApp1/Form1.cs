@@ -1,14 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using WindowsFormsApp1;
+using System.Data.SqlClient;
 
 namespace Restaurant
 {
@@ -20,15 +13,22 @@ namespace Restaurant
         private Meniu _meniu;
         public Form1()
         {
-            _model = new Model();
-            _presenter = new Presenter(this, _model);
-            InitializeComponent();
-            SetPresenter(_presenter);
-            SetModel(_model);
-            panelEmployee.Visible = false;
-            _meniu = Meniu.GetInstance();
-            initControls();
-            loadCommandsFromDB();
+            try
+            {
+                _model = new Model();
+                _presenter = new Presenter(this, _model);
+                InitializeComponent();
+                SetPresenter(_presenter);
+                SetModel(_model);
+                panelEmployee.Visible = false;
+                _meniu = Meniu.GetInstance();
+                initControls();
+                loadCommandsFromDB();
+            } catch (SqlException sqlEx)
+            {
+                MessageBox.Show("Eroare la deschiderea bazei de date:\r\n" + sqlEx.Message, "EROARE", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Application.Exit();
+            }
         }
         public void closeApp()
         {
@@ -43,26 +43,36 @@ namespace Restaurant
             }
         }
         private void loadCommandsFromDB()
-        {            
-            List<string> commandsFromDB = _model.Commands;
-            foreach(string commandStr in commandsFromDB)
-            {
-                nrOfCommands++;
-                List<Produs> productList = new List<Produs>();
-                string[] productListStr = commandStr.Split('#');
-                string[] productListStr1 = productListStr[1].Split('-');
-                string[] productListStr2 = productListStr[2].Split('-');
-                foreach (string p in productListStr1)
+        {
+            try { 
+                List<string> commandsFromDB = _model.Commands;
+                foreach(string commandStr in commandsFromDB)
                 {
-                    Produs pr = _presenter.getProductByName(p);
-                    if(pr != null)
-                        productList.Add(pr);
-                }
-                Command command = new Command(productList);
-                command.PretComanda = Convert.ToDouble(productListStr2[0]);
-                command.NrMasa = Convert.ToInt32(productListStr2[1]);
+                    nrOfCommands++;
+                    //creare lista de Produs cu pentru comenzile stocate in baza de date
+                    List<Produs> productList = new List<Produs>();
+                    //Sirul de carctere cu datele din baza de date este de forma:
+                    //id#lista de produse#Pret comanda-NrMasa
+                    string[] productListStr = commandStr.Split('#');
+                    string[] productListStr2 = productListStr[1].Split('-');
+                    string[] infoCommandStr = productListStr[2].Split('-');
+                    foreach (string p in productListStr2)
+                    {
+                        //se obtine din meniu produsul dupa nume si se adauga in lista de Produse
+                        Produs pr = _presenter.getProductByName(p);
+                        if(pr != null)
+                            productList.Add(pr);
+                    }
+                    //creare comanda si setarea detaliilor acesteia
+                    Command command = new Command(productList);
+                    command.PretComanda = Convert.ToDouble(infoCommandStr[0]);
+                    command.NrMasa = Convert.ToInt32(infoCommandStr[1]);
                 
-                CommandLabel cl = new CommandLabel(_presenter, 0, nrOfCommands, command, panelEmployee);
+                    CommandLabel cl = new CommandLabel(_presenter, 0, nrOfCommands, command, panelEmployee);
+                }
+            } catch (SqlException sqlEx)
+            {
+                MessageBox.Show("Eroare la citirea comenzilor din baza de date: \r\n" + sqlEx.Message, "EROARE", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         public void SetModel(IModel model)
@@ -105,7 +115,14 @@ namespace Restaurant
             }
             Command c = new Command(produseComanda);
             CommandLabel cl = new CommandLabel(_presenter,0,nrOfCommands,c,panelEmployee);
-            _presenter.addCommand(c);
+            try
+            {
+                _presenter.addCommand(c);
+            }
+            catch (SqlException sqlEx)
+            {
+                MessageBox.Show("Eroare la adaugarea comenzii in baza de date:\r\n" + sqlEx.Message, "EROARE", MessageBoxButtons.OK,MessageBoxIcon.Error);
+            }
             listBoxComenzi.Items.Clear();
         }
 
@@ -149,6 +166,11 @@ namespace Restaurant
         {
             panelEmployee.Visible = true;
             panelMeniu.Visible = false;
+        }
+
+        private void despreToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Aplicatie pentru gestionarea comenzilor unui restaurant.", "Despre");
         }
     }
 }
