@@ -1,4 +1,11 @@
-﻿using System;
+/*
+	Fisier creat de Tanasă Ciprian-Ionut
+	Acest fisier contine partea de model
+	din arhitectura MVP care se ocupa cu
+	partea de stocare a comenzilor in baza
+	de date si preluarea acestora
+*/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -45,8 +52,10 @@ namespace Restaurant
         {
             string constr;
 
-            constr = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Documente\Facultate\An_3\II_IP\Proiect\WindowsFormsApp1\Model\Database.mdf;Integrated Security=True";
+            string currentFolder = AppDomain.CurrentDomain.BaseDirectory;
 
+            constr = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=" + currentFolder + @"Database.mdf;Integrated Security=True";
+            
             conn = new SqlConnection(constr);
 
             conn.Open();

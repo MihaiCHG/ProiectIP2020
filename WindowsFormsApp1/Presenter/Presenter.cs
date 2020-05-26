@@ -1,4 +1,12 @@
-﻿using System;
+﻿/*
+	Fisier creat de Tanasă Ciprian-Ionut
+	Acest fisier contine partea de presenter
+	din arhitectura MVP care apeleaza metodele
+	de adaugare si stergere a comenzilor in/din baza
+	de date
+*/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
