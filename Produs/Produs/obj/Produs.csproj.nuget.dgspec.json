@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Facultate\\An3-Sem2\\IP\\ProiectIP2020-master\\ProiectIP2020-master\\Produs\\Produs\\Produs.csproj": {}
+    "E:\\Facultate\\An3-Sem2\\IP\\ProiectIP2020-masterFinal\\ProiectIP2020-master\\Produs\\Produs\\Produs.csproj": {}
   },
   "projects": {
-    "E:\\Facultate\\An3-Sem2\\IP\\ProiectIP2020-master\\ProiectIP2020-master\\Produs\\Produs\\Produs.csproj": {
+    "E:\\Facultate\\An3-Sem2\\IP\\ProiectIP2020-masterFinal\\ProiectIP2020-master\\Produs\\Produs\\Produs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Facultate\\An3-Sem2\\IP\\ProiectIP2020-master\\ProiectIP2020-master\\Produs\\Produs\\Produs.csproj",
+        "projectUniqueName": "E:\\Facultate\\An3-Sem2\\IP\\ProiectIP2020-masterFinal\\ProiectIP2020-master\\Produs\\Produs\\Produs.csproj",
         "projectName": "Produs",
-        "projectPath": "E:\\Facultate\\An3-Sem2\\IP\\ProiectIP2020-master\\ProiectIP2020-master\\Produs\\Produs\\Produs.csproj",
+        "projectPath": "E:\\Facultate\\An3-Sem2\\IP\\ProiectIP2020-masterFinal\\ProiectIP2020-master\\Produs\\Produs\\Produs.csproj",
         "packagesPath": "C:\\Users\\betuk\\.nuget\\packages\\",
-        "outputPath": "E:\\Facultate\\An3-Sem2\\IP\\ProiectIP2020-master\\ProiectIP2020-master\\Produs\\Produs\\obj\\",
+        "outputPath": "E:\\Facultate\\An3-Sem2\\IP\\ProiectIP2020-masterFinal\\ProiectIP2020-master\\Produs\\Produs\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

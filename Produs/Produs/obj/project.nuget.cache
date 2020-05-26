@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6cJLBhyQySvjk3DpAGiatRbHrIi7iBGby96f622e5J7CLQV6Iz4dnaRWkuYEdztDP4LWn79M1G1pTawMavv2/A==",
+  "dgSpecHash": "Ez4t9xDzLkG4haV74ljyOy9UT9tFJNudUNh78wTwkBUyeb+glKWXVlS2VRZiMOFZeEhe/D9tf8G5pCfUfxNL2Q==",
   "success": true,
-  "projectFilePath": "E:\\Facultate\\An3-Sem2\\IP\\ProiectIP2020-master\\ProiectIP2020-master\\Produs\\Produs\\Produs.csproj",
+  "projectFilePath": "E:\\Facultate\\An3-Sem2\\IP\\ProiectIP2020-masterFinal\\ProiectIP2020-master\\Produs\\Produs\\Produs.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

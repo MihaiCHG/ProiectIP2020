@@ -1,4 +1,10 @@
-﻿using Restaurant;
+﻿/* Fisier creat si implementat de Iorga Beatrice
+ * Contine clasa CreatorProduct ce implementeaza metoda fabricii. 
+ * Clasa contine o metoda CreatorProduct ce are ca parametru un type de tip ProductName. 
+ *      Astfel, folosindu-se de un switch, returneaza un tip de produs.
+*/
+
+using Restaurant;
 using System;
 using System.Collections.Generic;
 using System.Text;
