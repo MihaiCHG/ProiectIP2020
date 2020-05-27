@@ -1,0 +1,12 @@
+D:\Documente\Facultate\An_3\II_IP\Proiect\Restaurant\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+D:\Documente\Facultate\An_3\II_IP\Proiect\Restaurant\Model\bin\Debug\Database.mdf
+D:\Documente\Facultate\An_3\II_IP\Proiect\Restaurant\Model\bin\Debug\Database_log.ldf
+D:\Documente\Facultate\An_3\II_IP\Proiect\Restaurant\Model\bin\Debug\Model.dll.config
+D:\Documente\Facultate\An_3\II_IP\Proiect\Restaurant\Model\bin\Debug\Model.dll
+D:\Documente\Facultate\An_3\II_IP\Proiect\Restaurant\Model\bin\Debug\Model.pdb
+D:\Documente\Facultate\An_3\II_IP\Proiect\Restaurant\Model\bin\Debug\Commons.dll
+D:\Documente\Facultate\An_3\II_IP\Proiect\Restaurant\Model\bin\Debug\Commons.pdb
+D:\Documente\Facultate\An_3\II_IP\Proiect\Restaurant\Model\obj\Debug\Model.csprojAssemblyReference.cache
+D:\Documente\Facultate\An_3\II_IP\Proiect\Restaurant\Model\obj\Debug\Model.csproj.CopyComplete
+D:\Documente\Facultate\An_3\II_IP\Proiect\Restaurant\Model\obj\Debug\Model.dll
+D:\Documente\Facultate\An_3\II_IP\Proiect\Restaurant\Model\obj\Debug\Model.pdb

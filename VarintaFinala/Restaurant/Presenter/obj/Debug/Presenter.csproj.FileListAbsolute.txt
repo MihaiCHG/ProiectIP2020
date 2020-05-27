@@ -1,0 +1,9 @@
+D:\Documente\Facultate\An_3\II_IP\Proiect\Restaurant\Presenter\bin\Debug\Presenter.dll
+D:\Documente\Facultate\An_3\II_IP\Proiect\Restaurant\Presenter\bin\Debug\Presenter.pdb
+D:\Documente\Facultate\An_3\II_IP\Proiect\Restaurant\Presenter\bin\Debug\Commons.dll
+D:\Documente\Facultate\An_3\II_IP\Proiect\Restaurant\Presenter\bin\Debug\Commons.pdb
+D:\Documente\Facultate\An_3\II_IP\Proiect\Restaurant\Presenter\obj\Debug\Presenter.csprojAssemblyReference.cache
+D:\Documente\Facultate\An_3\II_IP\Proiect\Restaurant\Presenter\obj\Debug\Presenter.csproj.CoreCompileInputs.cache
+D:\Documente\Facultate\An_3\II_IP\Proiect\Restaurant\Presenter\obj\Debug\Presenter.csproj.CopyComplete
+D:\Documente\Facultate\An_3\II_IP\Proiect\Restaurant\Presenter\obj\Debug\Presenter.dll
+D:\Documente\Facultate\An_3\II_IP\Proiect\Restaurant\Presenter\obj\Debug\Presenter.pdb
