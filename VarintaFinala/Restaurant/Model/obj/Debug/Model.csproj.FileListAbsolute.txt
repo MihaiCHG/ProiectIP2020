@@ -10,3 +10,15 @@ D:\Documente\Facultate\An_3\II_IP\Proiect\Restaurant\Model\obj\Debug\Model.cspro
 D:\Documente\Facultate\An_3\II_IP\Proiect\Restaurant\Model\obj\Debug\Model.csproj.CopyComplete
 D:\Documente\Facultate\An_3\II_IP\Proiect\Restaurant\Model\obj\Debug\Model.dll
 D:\Documente\Facultate\An_3\II_IP\Proiect\Restaurant\Model\obj\Debug\Model.pdb
+C:\Users\Mihai\Desktop\VarintaFinala\Restaurant\Model\bin\Debug\Database.mdf
+C:\Users\Mihai\Desktop\VarintaFinala\Restaurant\Model\bin\Debug\Database_log.ldf
+C:\Users\Mihai\Desktop\VarintaFinala\Restaurant\Model\bin\Debug\Model.dll.config
+C:\Users\Mihai\Desktop\VarintaFinala\Restaurant\Model\bin\Debug\Model.dll
+C:\Users\Mihai\Desktop\VarintaFinala\Restaurant\Model\bin\Debug\Model.pdb
+C:\Users\Mihai\Desktop\VarintaFinala\Restaurant\Model\bin\Debug\Commons.dll
+C:\Users\Mihai\Desktop\VarintaFinala\Restaurant\Model\bin\Debug\Commons.pdb
+C:\Users\Mihai\Desktop\VarintaFinala\Restaurant\Model\obj\Debug\Model.csprojAssemblyReference.cache
+C:\Users\Mihai\Desktop\VarintaFinala\Restaurant\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\Mihai\Desktop\VarintaFinala\Restaurant\Model\obj\Debug\Model.csproj.CopyComplete
+C:\Users\Mihai\Desktop\VarintaFinala\Restaurant\Model\obj\Debug\Model.dll
+C:\Users\Mihai\Desktop\VarintaFinala\Restaurant\Model\obj\Debug\Model.pdb

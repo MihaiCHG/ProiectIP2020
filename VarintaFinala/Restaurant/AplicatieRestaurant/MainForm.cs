@@ -127,43 +127,6 @@ namespace Restaurant
             }
             listBoxComenzi.Items.Clear();
         }
-
-/*        private void buttonGustariReci_Click(object sender, EventArgs e)
-        {
-            string str = comboBoxGustariReci.SelectedItem.ToString();
-            listBoxComenzi.Items.Add(str);
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            string str = comboBoxPaste.SelectedItem.ToString();
-            listBoxComenzi.Items.Add(str);
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            string str = comboBoxSupe.SelectedItem.ToString();
-            listBoxComenzi.Items.Add(str);
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            string str = comboBoxPui.SelectedItem.ToString();
-            listBoxComenzi.Items.Add(str);
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            string str = comboBoxPorc.SelectedItem.ToString();
-            listBoxComenzi.Items.Add(str);
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-            string str = comboBoxDesert.SelectedItem.ToString();
-            listBoxComenzi.Items.Add(str);
-        }
-        */
         private void angajatToolStripMenuItem_Click(object sender, EventArgs e)
         {
             panelEmployee.Visible = true;
@@ -177,7 +140,7 @@ namespace Restaurant
 
         private void manualDeUtilizareToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            Help.ShowHelp(this,"HelpProject.chm");
         }
     }
 }
